@@ -34,9 +34,16 @@ export default function HeroSection() {
             <hr className="grow border-gray-300" />
           </div>
 
-          <div>
-            <button>Sign Up With Google</button>
-          </div>
+          <button className="w-full flex items-center justify-center gap-2 text-text-primary py-3.5 rounded-md font-medium text-[15px] border border-[#CECECE] hover:ring-1 hover:ring-primary transition-all cursor-pointer">
+            <Image
+              src="/google-icon.svg"
+              alt="google"
+              width={15}
+              height={15}
+              className="w-4 h-4"
+            />
+            Sign Up With Google
+          </button>
         </div>
         <div>
           <Image
